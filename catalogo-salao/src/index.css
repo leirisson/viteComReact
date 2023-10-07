@@ -1,26 +1,3 @@
-import { createGlobalStyle } from "styled-components";
-import GandhiSansBold from './GandhiSans-Bold.otf'
-import GandhiSansRegular from './GandhiSans-Regular.otf'
-
-
-const EstilosGlobais = createGlobalStyle`
-@font-face {
-	font-family: 'GandhiSansRegular';
-	src: local('Gandhi Sans Regular'),local('GandhiSansRegular'),url(${GandhiSansRegular});
-}
-
-@font-face {
-	font-family: 'GandhiSansRegular';
-	src: local('Gandhi Sans Bold'),local('GandhiSansBold'),url(${GandhiSansBold});
-}
-
-
-
-
-html{
-	line-height: 1.15;
-	font-family: GandhiSansRegular;
-} 
 body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,7 +41,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-`
-
-export default EstilosGlobais

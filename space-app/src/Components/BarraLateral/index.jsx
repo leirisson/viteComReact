@@ -18,11 +18,18 @@ const BarraLateral = () =>{
         <aside>
             <nav>
                <ListaEstilizada>
-                    <ItemNavegacao>
-                        wwef
+                    <ItemNavegacao
+                        iconeAtivo={"/icones/home-ativo.png"}
+                        iconeInativo={"/icones/home-inativo.png"}
+                        ativo = {true}
+                    >
+                        Home
                     </ItemNavegacao>
-                    <ItemNavegacao>
-                        wwef
+                    <ItemNavegacao
+                      iconeAtivo={"/icones/mais-vistas-ativo.png"}
+                      iconeInativo={"/icones//mais-vistas-inativo.png"}
+                    >
+                       mais vista
                     </ItemNavegacao>
                </ListaEstilizada>  
             </nav>

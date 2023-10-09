@@ -23,16 +23,18 @@ const Tagestilizada = styled.div`
         border: none;
         padding: 10px 8px 1px 8px;
         border-radius: 10px;
-        width: 120px;
+        width: 125px;
         height: 50px;
         color: #fff;
         font-size: 23px;
-        font-weight: 700;
+        font-weight: 300;
 
 
     }
     button:hover{
         border: 2px solid #C98CF1;
+       
+        font-weight: 700;
 
     }
 
